@@ -6,3 +6,7 @@ Licensing allows citizens and businesses to apply for licences (and similar) fro
 There is a legal requirement that authorities offer an online mechanism to apply for certain licences and permissions.
 
 Licensing exists for authorities which can't or don't want to offer their own licensing application.
+
+## Set up
+This repository uses `uv` to manage packages and dependencies, ensure you have `uv` installed and run `uv sync` 
+to install all the relevant packages and dependencies needed to test and run this project.
