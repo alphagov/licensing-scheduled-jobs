@@ -8,5 +8,8 @@ There is a legal requirement that authorities offer an online mechanism to apply
 Licensing exists for authorities which can't or don't want to offer their own licensing application.
 
 ## Set up
-This repository uses `uv` to manage packages and dependencies, ensure you have `uv` installed and run `uv sync` 
-to install all the relevant packages and dependencies needed to test and run this project.
+This project uses `uv` to manage dependencies and packages. 
+Ensure you have `uv` installed and run `uv sync` to install necessary dependencies and packages.
+If a python virtual environment has not been activated for you; run `source .venv/bin/activate`.
+
+This project also uses `pre-commit` run `pre-commit install` to create the correct pre-commit git hooks.
